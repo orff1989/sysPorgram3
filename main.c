@@ -22,11 +22,10 @@ const char* ans1 = findInTxt(word,(txt+1));   //q1
 const char* ans2 = findInTxt2(word,(txt+1));  //q2
 const char* ans3 = findInTxt3(word,(txt+1));  //q3
 
-
-printf("\n");
 printf("Gematria Sequences: %s\n",ans1);
 printf("Atbash Sequences: %s\n",ans2);
 printf("Anagram Sequences: %s\n",ans3);
+printf("\n");
 
     return 0;
 }
