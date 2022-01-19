@@ -24,7 +24,7 @@ const char* ans3 = findInTxt3(word,(txt+1));  //q3
 
 
 
-printf("Gematria Sequences: %s\n",ans1);
+printf("Gematria Sequences: %s",ans1);
 printf("Atbash Sequences: %s\n",ans2);
 printf("Anagram Sequences: %s\n",ans3);
 
